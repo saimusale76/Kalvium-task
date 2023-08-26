@@ -5,7 +5,7 @@ export const TableData = ({student, date, status}) => {
         <tr>
             <td>{student}</td>
             <td>{date}</td>
-            <td>{status === "on" ? 'Yes' : 'No'}</td>
+            <td>{status == "on" ? 'Yes' : 'No'}</td>
         </tr>
   )
 }

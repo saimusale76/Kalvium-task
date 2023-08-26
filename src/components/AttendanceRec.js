@@ -27,7 +27,7 @@ export default function AttendanceRecords() {
             <TableData
             student = {attendance.studName}
             date = {attendance.date}
-            status = {attendance.attended === "on" ? 'Yes' : 'No'}
+            status = {attendance.attended}
             />
           ))}
         </tbody>
