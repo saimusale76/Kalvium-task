@@ -44,6 +44,7 @@
 
 .form-name{
   padding: 5px;
+  margin-left: 10px;
   border-radius: 5px;
 }
 
@@ -51,6 +52,8 @@
   padding: 20px;
 }
 
-.thead{
-  align-content: center;
+.form-design{
+  margin-right: 10px;
+  padding-right: 10px;
+  justify-content: space-evenly;
 }

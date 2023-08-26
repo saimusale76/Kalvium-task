@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import firebase from 'firebase/app'
+// import Button from '@mui/icons-material';
+
 
 export default function AttendanceForm() {
 
@@ -87,7 +88,8 @@ export default function AttendanceForm() {
            className='form-name'
           />
         </label>
-        <button onClick={handleSubmit} type="submit">Submit</button>
+        <button onClick={handleSubmit} type="button" class="btn btn-light">Submit</button>
+        {/* <Button onClick={handleSubmit} type="button"variant="contained">Contained</Button> */}
       </form>
     );
   
