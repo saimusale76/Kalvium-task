@@ -13,6 +13,11 @@
   }
 }
 
+.form-setup{
+  padding: 30px;
+  justify-content: space-evenly;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +40,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.form-name{
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.table{
+  padding: 20px;
+}
+
+.thead{
+  align-content: center;
 }
